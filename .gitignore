@@ -1,5 +1,6 @@
 */
 !ansible/
 !.gitignore
+!.gitmodules
 !README.md
 !Vagrantfile
