@@ -1,3 +1,6 @@
 [submodule "ansible/roles/ansible-role-docker"]
 	path = ansible/roles/ansible-role-docker
 	url = https://github.com/igorwojciechowski/ansible-role-docker
+[submodule "ansible/roles/ansible-role-docker-compose"]
+	path = ansible/roles/ansible-role-docker-compose
+	url = https://github.com/igorwojciechowski/ansible-role-docker-compose
