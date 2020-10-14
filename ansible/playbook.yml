@@ -1,0 +1,15 @@
+---
+- hosts: webdev
+  become: yes
+  become_method: sudo
+  become_user: root
+
+  roles:
+    - user
+    - docker
+    - docker_compose
+    - docker_nginx
+    - docker_postgres
+    - docker_mysql
+    - docker_python
+    - docker_node

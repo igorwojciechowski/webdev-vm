@@ -1,0 +1,38 @@
+---
+# Configuration
+ip: 192.168.33.11
+
+# User
+user_name: webdev
+user_password: webdev
+user_uid: 1337
+user_group: webdev
+group_gid: 1337
+user_home: /home/webdev
+
+# Dirs
+backend_root_dir: /var/www/backend
+frontend_root_dir: /var/www/frontend
+
+# Database
+db_user: webdev
+db_password: webdev
+db_root_password: root
+db_name: webdev
+
+# Docker containers flags
+use_docker_mysql: no
+use_docker_nginx: no
+use_docker_node: no
+use_docker_php: no
+use_docker_postgres: no
+use_docker_python: no
+
+# Docker containers IP addresses
+docker_network_subnet: 170.20.0.0/24
+docker_mysql_ip: 170.20.0.2
+docker_nginx_ip: 170.20.0.3
+docker_node_ip: 170.20.0.4
+docker_php_ip: 170.20.0.5
+docker_postgres_ip: 170.20.0.6
+docker_python_ip: 170.20.0.7
