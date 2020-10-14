@@ -22,6 +22,6 @@
 [submodule "ansible/roles/ansible-role-docker-python"]
 	path = ansible/roles/ansible-role-docker-python
 	url = https://github.com/igorwojciechowski/ansible-role-docker-python
-[submodule "ansible/roles/ansible-role-user"]
-	path = ansible/roles/ansible-role-user
+[submodule "ansible-role-user"]
+	path = ansible-role-user
 	url = https://github.com/igorwojciechowski/ansible-role-user
