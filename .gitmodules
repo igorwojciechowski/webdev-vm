@@ -1,30 +1,39 @@
 [submodule "ansible/roles/ansible-role-docker"]
 	path = ansible/roles/ansible-role-docker
 	url = https://github.com/igorwojciechowski/ansible-role-docker
+	branch = main
 [submodule "ansible/roles/ansible-role-docker-compose"]
 	path = ansible/roles/ansible-role-docker-compose
 	url = https://github.com/igorwojciechowski/ansible-role-docker-compose
+	branch = main
 [submodule "ansible/roles/ansible-role-docker-mysql"]
 	path = ansible/roles/ansible-role-docker-mysql
 	url = https://github.com/igorwojciechowski/ansible-role-docker-mysql
+	branch = main
 [submodule "ansible/roles/ansible-role-docker-nginx"]
 	path = ansible/roles/ansible-role-docker-nginx
 	url = https://github.com/igorwojciechowski/ansible-role-docker-nginx
+	branch = main
 [submodule "ansible/roles/ansible-role-docker-node"]
 	path = ansible/roles/ansible-role-docker-node
 	url = https://github.com/igorwojciechowski/ansible-role-docker-node
+	branch = main
 [submodule "ansible/roles/ansible-role-docker-php"]
 	path = ansible/roles/ansible-role-docker-php
 	url = https://github.com/igorwojciechowski/ansible-role-docker-php
+	branch = main
 [submodule "ansible/roles/ansible-role-docker-postgres"]
 	path = ansible/roles/ansible-role-docker-postgres
 	url = https://github.com/igorwojciechowski/ansible-role-docker-postgres
+	branch = main
 [submodule "ansible/roles/ansible-role-docker-python"]
 	path = ansible/roles/ansible-role-docker-python
 	url = https://github.com/igorwojciechowski/ansible-role-docker-python
+	branch = main
 [submodule "ansible-role-user"]
 	path = ansible/roles/ansible-role-user
 	url = https://github.com/igorwojciechowski/ansible-role-user
 [submodule "ansible/roles/ansible-role-user"]
 	path = ansible/roles/ansible-role-user
 	url = https://github.com/igorwojciechowski/ansible-role-user
+	branch = main
