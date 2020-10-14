@@ -11,8 +11,9 @@ group_gid: 1337
 user_home: /home/webdev
 
 # Dirs
-backend_root_dir: /var/www/backend
-frontend_root_dir: /var/www/frontend
+node_app_dir: /var/www/node-app/
+php_app_dir: /var/www/php-app/
+python_app_dir: /var/www/python-app/
 
 # Database
 db_user: webdev
