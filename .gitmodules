@@ -10,3 +10,6 @@
 [submodule "ansible/roles/ansible-role-docker-nginx"]
 	path = ansible/roles/ansible-role-docker-nginx
 	url = https://github.com/igorwojciechowski/ansible-role-docker-nginx
+[submodule "ansible/roles/ansible-role-docker-node"]
+	path = ansible/roles/ansible-role-docker-node
+	url = https://github.com/igorwojciechowski/ansible-role-docker-node
