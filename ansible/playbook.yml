@@ -8,8 +8,9 @@
     - ansible-role-user
     - ansible-role-docker
     - ansible-role-docker-compose
-    - ansible-role-docker-nginx
-    - ansible-role-docker-postgres
     - ansible-role-docker-mysql
-    - ansible-role-docker-python
+    - ansible-role-docker-nginx
     - ansible-role-docker-node
+    - ansible-role-docker-php
+    - ansible-role-docker-postgres
+    - ansible-role-docker-python
