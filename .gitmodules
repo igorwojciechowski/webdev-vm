@@ -25,3 +25,6 @@
 [submodule "ansible-role-user"]
 	path = ansible/roles/ansible-role-user
 	url = https://github.com/igorwojciechowski/ansible-role-user
+[submodule "ansible/roles/ansible-role-user"]
+	path = ansible/roles/ansible-role-user
+	url = https://github.com/igorwojciechowski/ansible-role-user
