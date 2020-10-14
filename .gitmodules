@@ -4,3 +4,6 @@
 [submodule "ansible/roles/ansible-role-docker-compose"]
 	path = ansible/roles/ansible-role-docker-compose
 	url = https://github.com/igorwojciechowski/ansible-role-docker-compose
+[submodule "ansible/roles/ansible-role-docker-mysql"]
+	path = ansible/roles/ansible-role-docker-mysql
+	url = https://github.com/igorwojciechowski/ansible-role-docker-mysql
