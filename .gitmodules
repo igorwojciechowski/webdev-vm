@@ -7,3 +7,6 @@
 [submodule "ansible/roles/ansible-role-docker-mysql"]
 	path = ansible/roles/ansible-role-docker-mysql
 	url = https://github.com/igorwojciechowski/ansible-role-docker-mysql
+[submodule "ansible/roles/ansible-role-docker-nginx"]
+	path = ansible/roles/ansible-role-docker-nginx
+	url = https://github.com/igorwojciechowski/ansible-role-docker-nginx
