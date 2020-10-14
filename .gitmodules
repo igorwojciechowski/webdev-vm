@@ -16,3 +16,6 @@
 [submodule "ansible/roles/ansible-role-docker-php"]
 	path = ansible/roles/ansible-role-docker-php
 	url = https://github.com/igorwojciechowski/ansible-role-docker-php
+[submodule "ansible/roles/ansible-role-docker-postgres"]
+	path = ansible/roles/ansible-role-docker-postgres
+	url = https://github.com/igorwojciechowski/ansible-role-docker-postgres
