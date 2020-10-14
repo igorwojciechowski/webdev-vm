@@ -13,3 +13,6 @@
 [submodule "ansible/roles/ansible-role-docker-node"]
 	path = ansible/roles/ansible-role-docker-node
 	url = https://github.com/igorwojciechowski/ansible-role-docker-node
+[submodule "ansible/roles/ansible-role-docker-php"]
+	path = ansible/roles/ansible-role-docker-php
+	url = https://github.com/igorwojciechowski/ansible-role-docker-php
