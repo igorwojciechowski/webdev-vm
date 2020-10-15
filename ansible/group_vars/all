@@ -1,39 +1,50 @@
 ---
-# Configuration
-ip: 192.168.33.11
+network:
+  ip: 192.168.33.11
+  docker:
+    subnet: 170.20.0.0/24
+    mysql_ip: 170.20.0.2
+    nginx_ip: 170.20.0.3
+    node_ip: 170.20.0.4
+    php_ip: 170.20.0.5
+    postgres_ip: 170.20.0.6
+    python_ip: 170.20.0.7
 
-# User
-user_name: webdev
-user_password: webdev
-user_uid: 1337
-user_group: webdev
-group_gid: 1337
-user_home: /home/webdev
+user:
+  name: webdev
+  password: webdev
+  uid: 1337
+  group: webdev
+  gid: 1337
+  home: /home/webdev
 
-# Dirs
-node_app_dir: /var/www/node-app/
-php_app_dir: /var/www/php-app/
-python_app_dir: /var/www/python-app/
+dir:
+  shared:
+    sites_enabled: /home/webdev/docker/docker_nginx/etc/nginx/sites-enabled
+    certs: /home/webdev/docker/docker_nginx/etc/ssl/certs
+    private: /home/webdev/docker/docker_nginx/etc/ssl/private
+  node_app: /var/www/node-app
+  php_app: /var/www/php-app
+  python_app: /var/www/python-app
 
-# Database
-db_user: webdev
-db_password: webdev
-db_root_password: root
-db_name: webdev
+domains:
+  node_app: node.webdev.local
+  php_app: php.webdev.local
+  python_app: python.webdev.local
 
-# Docker containers flags
-use_docker_mysql: no
-use_docker_nginx: no
-use_docker_node: no
-use_docker_php: no
-use_docker_postgres: no
-use_docker_python: no
+app_names:
+  python_app: python-app
 
-# Docker containers IP addresses
-docker_network_subnet: 170.20.0.0/24
-docker_mysql_ip: 170.20.0.2
-docker_nginx_ip: 170.20.0.3
-docker_node_ip: 170.20.0.4
-docker_php_ip: 170.20.0.5
-docker_postgres_ip: 170.20.0.6
-docker_python_ip: 170.20.0.7
+db:
+  user: webdev
+  password: webdev
+  root_password: root
+  name: webdev
+
+use:
+  docker_mysql: yes
+  docker_nginx: yes
+  docker_node: yes
+  docker_php: yes
+  docker_postgres: yes
+  docker_python: yes
